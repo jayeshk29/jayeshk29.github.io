@@ -1,20 +1,19 @@
 $(document).ready(function(){
 
- $("#modal-container").hide();
+$(window).scroll(function () {
+ var height = $(window).scrollTop();
+ if (height >= 400) { // once we reach 1000px mark
+    $(".footer").removeClass("bounce"); }
+ if (height <= 400) {
+ 	$(".footer").addClass("bounce");
+ }
+ console.log(height);
+ // or do whatever you want here
+ });
 	
 	// Question 4
 
-$(".modalfooter").click(function() {
- $("#modal-container").hide();
-});
 
-$("#link").click(function() {
- $("#modal-container").show();
-});
-
-$("#modal-overlay").click(function() {
- $("#modal-container").hide();
-});
 	// IMPLEMENT "SHOW MODAL" WHEN "CLICK ON LOGIN BUTTON FROM MAIN PAGE" HERE
 
 	// IMPLEMENT "HIDE MODAL" WHEN "CLICK ON SUBMIT BUTTON FROM MODAL BOX" HERE
