@@ -7,6 +7,25 @@ $(window).scroll(function () {
  if (height <= 100) {
  	$(".footer").addClass("bounce");
  }
+ if (height >=500){
+ 	$("#landing").fadeOut("slow");
+ }
+
+  if (height < 500){
+ 	$("#landing").fadeIn("slow");
+
+ }
+
+  if (height >=1100){
+ 	$("#aboutcontainer").fadeOut("slow");
+ }
+
+  if (height < 1100){
+ 	$("#aboutcontainer").fadeIn("slow");
+ 	
+ }
+
+
  console.log(height);
  // or do whatever you want here
  });
