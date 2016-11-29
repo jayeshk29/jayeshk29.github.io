@@ -23,7 +23,7 @@ body{
     top: 62%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 
@@ -41,9 +41,8 @@ body{
 }
 
 .pic:hover{
-  opacity: 0.5;
+  filter: grayscale(100%);
   transition: 1s;
-  cursor: pointer;
 }
 
 .pic{
@@ -52,6 +51,7 @@ max-height:100%;
 border-radius: 60%;
 transition: 1s;
 }
+
 
 .footer{
     font-family: 'Raleway', sans-serif;
@@ -63,6 +63,7 @@ transition: 1s;
     transform: translate(-50%, -50%);
     margin: 0 auto;
 }
+
 /* Bounce effect for footer */
 
 .bounce {
