@@ -2,9 +2,9 @@ $(document).ready(function(){
 
 $(window).scroll(function () {
  var height = $(window).scrollTop();
- if (height >= 400) { // once we reach 1000px mark
+ if (height >= 100) { // once we reach 1000px mark
     $(".footer").removeClass("bounce"); }
- if (height <= 400) {
+ if (height <= 100) {
  	$(".footer").addClass("bounce");
  }
  console.log(height);
