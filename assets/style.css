@@ -1,4 +1,6 @@
-
+body{
+  background-color: black;
+}
 #landing{
   position: absolute;
     width: 100%;
@@ -56,6 +58,19 @@
 
 
 .dispic{
+  color: black;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px; 
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.dispic1{
   color: black;
   border-style: solid;
   border-color: white;

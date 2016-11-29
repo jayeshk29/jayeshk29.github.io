@@ -1,5 +1,11 @@
 $(document).ready(function(){
-
+$(".about").hide();
+$(".abouttext").hide();
+$("#aboutinfo").hide();
+$("#blogdesc").hide();
+$(".blogtitle").hide();
+$(".dispic").hide();
+$("#_contact").hide();
 $(window).scroll(function () {
  var height = $(window).scrollTop();
  if (height >= 100) { // once we reach 1000px mark
@@ -9,7 +15,29 @@ $(window).scroll(function () {
  }
  if (height >=400){
  	$("#landing").fadeOut("slow");
+
+
  }
+
+ if (height >=500){
+ 	 $(".about").fadeIn("slow");
+ 	 $("#aboutinfo").fadeIn("slow");
+
+ }
+
+  if (height >=1150){
+ 	 $(".blogtitle").fadeIn("slow");
+ 	 $("#blogdesc").fadeIn("slow");
+
+ }
+
+  if (height >=1450){
+  	 $("#_contact").fadeIn("slow");
+ 	 $(".dispic").fadeIn("slow");
+
+ }
+
+
 
   if (height < 400){
  	$("#landing").fadeIn();
@@ -37,20 +65,6 @@ $(window).scroll(function () {
 
 
  console.log(height);
- // or do whatever you want here
  });
+	});
 	
-	// Question 4
-
-
-	// IMPLEMENT "SHOW MODAL" WHEN "CLICK ON LOGIN BUTTON FROM MAIN PAGE" HERE
-
-	// IMPLEMENT "HIDE MODAL" WHEN "CLICK ON SUBMIT BUTTON FROM MODAL BOX" HERE
-
-	// IMPLEMENT "HIDE MODAL" WHEN "CLICK ON CANCEL BUTTON FROM MODAL BOX" HERE
-	
-	
-	// Question 5
-	// IMPLEMENT "HIDE MODAL" WHEN "CLICK ON MODAL OVERLAY" HERE
-	
-});
