@@ -7,23 +7,33 @@ $(window).scroll(function () {
  if (height <= 100) {
  	$(".footer").addClass("bounce");
  }
- if (height >=500){
+ if (height >=400){
  	$("#landing").fadeOut("slow");
  }
 
-  if (height < 500){
- 	$("#landing").fadeIn("slow");
+  if (height < 400){
+ 	$("#landing").fadeIn();
 
  }
 
-  if (height >=1100){
+  if (height >=1050){
  	$("#aboutcontainer").fadeOut("slow");
  }
 
-  if (height < 1100){
- 	$("#aboutcontainer").fadeIn("slow");
+  if (height < 1050){
+ 	$("#aboutcontainer").fadeIn();
  	
  }
+
+  if (height >=1550){
+ 	$("#blogcontainer").fadeOut("slow");
+ }
+
+  if (height < 1550){
+ 	$("#blogcontainer").fadeIn();
+ 	
+ }
+
 
 
  console.log(height);
