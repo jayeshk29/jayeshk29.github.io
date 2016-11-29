@@ -206,5 +206,6 @@ transition: 1s;
   left: 96%;
   width: 40px;
   height: 40px;
+  cursor: pointer;
 
 }
