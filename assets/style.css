@@ -1,5 +1,5 @@
 body{
-  background-color: black;
+  background-color: #00bfff;
 }
 #landing{
   position: absolute;
@@ -178,20 +178,33 @@ transition: 1s;
 }
 
 #fb{
-  top: 45%;
+  top: 40%;
   left: 40%;
 }
 
 #twt{
-  top: 45%;
+  top: 40%;
   left: 60%;
 }
 #git{
-  top: 80%;
+  top: 75%;
   left: 40%;
 }
 #eml{
-  top: 80%;
+  top: 75%;
   left: 60%;
 }
 
+.copyright{
+  top: 97%;
+  font-size: 20px;
+}
+
+.uparrow{
+
+  top: 93%;
+  left: 96%;
+  width: 40px;
+  height: 40px;
+
+}
