@@ -1,0 +1,2 @@
+User-Agent: *
+Sitemap: https://jayeshk29.github.io/sitemap.xml
