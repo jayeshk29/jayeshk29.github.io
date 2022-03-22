@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: http://www.jayesh.nyc/sitemap.xml
+Sitemap: http://jayesh.nyc/sitemap.xml
